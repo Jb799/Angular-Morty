@@ -1,0 +1,28 @@
+#header{
+    width: 100%;
+    height: 75px;
+    color: white;
+    padding-top: 10px;
+    display: flex;
+    align-items: center;
+    position: fixed; top: 0; left: 0;
+}
+
+#header h1{
+    margin-left: 2%;
+    color: #d6955b;
+}
+
+#header img{
+    width: 5%;
+    margin-top: 30px;
+    margin-left: 1%;
+}
+
+#header_nav{
+    display: flex;
+    gap: 5%;
+    width: 50%;
+    margin-left: 7%;
+    align-items: center;
+}

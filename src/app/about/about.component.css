@@ -1,0 +1,12 @@
+#profil_card{
+    width: 20%;
+    margin-left: 40%;
+    margin-top: 175px;
+    text-align: center;
+}
+
+#profil_card img{
+    border-radius: 50px;
+    width: 50%;
+    margin-bottom: 10px;
+}

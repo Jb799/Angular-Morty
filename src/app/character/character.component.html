@@ -1,0 +1,6 @@
+<div id="character_list">
+    <div *ngFor="let character of characters" class="character_card">
+        <img [src]="character.image" alt="Photo de {{ character.name }}">
+        <h1>{{ character.name }}</h1>
+    </div>
+</div>

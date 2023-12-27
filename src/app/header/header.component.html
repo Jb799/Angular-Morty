@@ -1,0 +1,10 @@
+<div id="header">
+    <img src="../../assets/images/morty.png" alt="Image de morty">
+    <h1>Angular Morty</h1>
+
+    <div id="header_nav">
+        <ng-container *ngFor="let page of pages">
+            <a [routerLink]="page.route">{{ page.name }}</a>
+        </ng-container>
+    </div>
+</div>
