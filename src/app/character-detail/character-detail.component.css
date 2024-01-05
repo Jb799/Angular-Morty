@@ -1,0 +1,14 @@
+#character_detail_div{
+    margin-top: 150px;
+    margin-left: 15%;
+}
+
+#character_detail_div img{
+    border-radius: 25px;
+    box-shadow: 0em 0em 1em black;
+    margin-bottom: 20px;
+}
+
+#character_detail_div p{
+    margin-left: 1%;
+}

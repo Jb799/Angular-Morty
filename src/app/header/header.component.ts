@@ -11,7 +11,7 @@ export class HeaderComponent implements OnInit {
 
     ngOnInit(): void {
       this.pages.push( { name: 'Home', route: '/home' } )
-      this.pages.push( { name: 'Characters', route: '/character' } )
+      this.pages.push( { name: 'Characters', route: '/characters' } )
       this.pages.push( { name: 'About', route: '/about' } )
     }
 }

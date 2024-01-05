@@ -1,0 +1,19 @@
+<input type="text" [(ngModel)]="searchTerm" (input)="filterCharacters()" placeholder="Rechercher un personnage" id="search_character">
+
+<div id="character_list">
+    <div *ngFor="let character of filteredCharacters" class="character_card" (click)="onSelectCharacter(character.id)">
+        <img [src]="character.image" alt="Photo de {{ character.name }}">
+        <div>
+            <h1>{{ character.name }}</h1>
+            <p>Type: {{ character.species }}</p>
+            <p>Status: {{ character.status }}</p>
+        </div>
+    </div>
+</div>
+
+<div id="nav_buttons">
+    <p>{{ currentPage }}/{{ totalPages }}</p>
+
+    <button [disabled]="!pageInfo?.prev" (click)="onPreviousPage()" id="next_list_button">&#60;</button>
+    <button [disabled]="!pageInfo?.next" (click)="onNextPage()" id="prev_list_button">&#62;</button>
+</div>

@@ -1,12 +1,19 @@
 #profil_card{
-    width: 20%;
-    margin-left: 40%;
-    margin-top: 175px;
+    width: 30%;
     text-align: center;
 }
 
 #profil_card img{
     border-radius: 50px;
-    width: 50%;
+    width: 100%;
     margin-bottom: 10px;
+}
+
+#profil_card_list{
+    display: flex;
+    gap: 5%;
+    margin-top: 175px;
+    justify-content: center;
+    width: 50%;
+    margin-left: 25%;
 }
